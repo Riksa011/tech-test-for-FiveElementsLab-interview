@@ -1,0 +1,128 @@
+/* PAGE BODY */
+body {
+  background-color: grey;
+  font-family: Arial, sans-serif;
+}
+
+.page-wrapper {
+  min-height: 98vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* NAVBAR */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 450px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  font-size: 35px;
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  margin-left: 45px;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+/* CONNECT WALLET BUTTON */
+.connect-wallet button {
+  background-color: green;
+  margin-left: 75px;
+  font-size: 30px;
+  border: grey;
+  color: black;
+  cursor: pointer;
+}
+
+
+
+/* HOMEPAGE */
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.not-connected{
+    color: #651909;
+}
+
+/* FOOTER */
+.footer {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 22px;
+    bottom: 0;
+    margin-top: auto;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+    color: black;
+  }
+  
+  .footer strong {
+    font-weight: bold;
+  }
+
+/*checkUniswap BUTTON*/
+.checkUniswap{
+  cursor: pointer;
+  background-color: green;
+  font-size: 30px;
+  border: transparent;
+  color: black;
+}
+
+/*mint nft BUTTON*/
+.mintReward{
+  cursor: pointer;
+  background-color: green;
+  font-size: 50px;
+  border: transparent;
+  color: black;
+}
+
+.success{
+  color: green;
+}
+
+.center{
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
