@@ -74,7 +74,7 @@ export default function AppWrapper({ Component, pageProps }) {
   // Effect to start Moralis sdk
   useEffect(() => {
     startMoralisHandler();
-  }, []);
+  });
 
 
   //frontend

@@ -79,7 +79,7 @@ const Page = ({ address, connected, contract }) => {
                       <h1 className='success'>You have successfully minted your reward Nft!</h1>
                       <h2>Transaction hash: {mintTxHash}</h2>
                       <h2><a href={`https://sepolia.etherscan.io/tx/${mintTxHash}`} target="_blank" rel="noopener noreferrer">(View on Etherscan)</a></h2>
-                      <h2 className="center">To view your Nft on MetaMask click "Import NFT", enter the contract address "0x2FdD4893B95b9320c84658b7668496D0DE871cce" and the token ID you want to view</h2>
+                      <h2 className="center">To view your Nft on MetaMask click &apos;Import NFT&apos;, enter the contract address &apos;0x2FdD4893B95b9320c84658b7668496D0DE871cce&apos; and the token ID you want to view</h2>
                     </>
                   ) : (
                     <>
@@ -96,7 +96,7 @@ const Page = ({ address, connected, contract }) => {
               ) : (
                 /* UNISWAP TX FALSE */
                 <>
-                  <h1 className="not-connected">It looks like you haven't made a swap on Uniswap in the last 24h</h1>
+                  <h1 className="not-connected">It looks like you haven&apos;t made a swap on Uniswap in the last 24h</h1>
                   <br></br>
                   <h1 className="not-connected">If you want to mint a reward NFT go and make a swap <a href="https://app.uniswap.org/swap" target="_blank" rel="noopener noreferrer"> (here) </a></h1>
                   <hr></hr>
